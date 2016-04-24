@@ -1,20 +1,18 @@
 # Younioner
-Younioner is **multipale client** reverse shell created by Ayoub Ouakkaha, which is now under development
+Younioner is **multiple client** reverse shell created by Ayoub Ouakkaha, which is now still under development
 
-## How to use it
-once you download the project(click on download zip button )
-You can run this directly as python3 script 
-* **windows**
-just write the command below in command prompt
+### What is a Reverse Shell?
+A reverse shell is one by which target machine communicates back to the attacking machine. The attaching machine has a listener port on which it receives the connection by which a code,command or execution is achieved.
+
+## How to use it?
+You can clone the git repository from here.
+https://github.com/AyoubOuakkaha/Younioner-Python3_Reverse_Shell
+And just run the Python executable.
+* **Windows/Linux**
+Once you have cloned the project,run the server using
 `python Server.py` 
-to run Client just change Server.py with Client.py module:
+And to run the client version,
 `python Client.py`
-
-* **Linux**
-you can run this also inside linux OS using bellow commands
-`python3 Server.py`
-to run Client just change Server.py with Client.py module:
-`python3 Client.py`
 
 ## Make it Executable:
 instead of running python client.py every time we want to run the client module you can do this inside **windows** Using Py2Exe Library, after bellow proccess you will have .exe ready to run in anywhere without python, just follow me
@@ -28,26 +26,22 @@ instead of running python client.py every time we want to run the client module 
 To Do this Linux i only know one library that could get the job done which is **PyInstaller**, you can find more about this process using this link **[pythonhosted's website](https://pythonhosted.org/PyInstaller/)**
 
 ## Younioner Features
-Younioner introduce tons of awesome Features, include:
+Younioner is still under development and has a lot of cool features, which include:
 
-1. **Multiple Client Support:** this is really important when you're Dealing with all of targets, this feature allow you to take control of each connected target in individual.
-2. **Easy interface:**  up to this moment **Younioner** project uses terminal or command prompt in windows, we plan to switch to GUI(probably in incoming releases), anyway interface is really simple 
-3. **Easy commands**: yes no more stupid and complicated commands, **Younioner** offers you easy and realistic commands  
-4. **All Platforms :** Younioner support all different platforms which includes Mobile(tested on android), Windows, Linux, OS X...
-5. **Under Developpement:** Younioner is under developpement which means a lot features are coming soon 
+1. **Multiple Client Support:** Younioner can be made to manage multiple clients at the same time!
+2. **Easy interface:**  To this moment, **Younioner** project uses terminal/command prompt in windows. We are planning on switching to GUI(probably in incoming releases).Also it has a very simple interface.
+3. **Easy commands**: **Younioner** offers you easy and realistic commands. No more complication!
+4. **All Platforms :** Younioner support all different platforms which includes Windows,Linux,OS X and mobile platforms like Android too.
+ 
 
-### so what is it Reverse Shell
-A reverse shell is a type of shell in which the target machine communicates back to the attacking machine. The attacking machine has a listener port on which it receives the connection, which by using, code or command execution is achieved.
+### Get involved with the project
+Wanna make cool changes to the project? Add new features,maybe? Or,you can document really well?
+Everyone is welcome in making the project better. Clone it and shoot us up if you run into dead doors.
 
-### get evolved with the project
-we plan to make Younioner a great project, but this won't happen without a cooperation from other developers. 
-so feel free to join us.. 
-
-### Important
-this project was made for security purposes.
-you have no right to use this in any device other than yours 
+### Legal Disclaimer
+The project has been developed for educational purposes only. Do not try this out on systems which you don't have permissions to. 
 
 ### Contact Me
-You can use this email to reach me **ayoub.ouakkaha@gmail.com**
+Shoot me at **ayoub.ouakkaha@gmail.com**
 
 **MADE WITH PASSION AND LOVE**
